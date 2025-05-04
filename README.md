@@ -59,3 +59,15 @@ def redirect_to_swagger(request):
     return redirect('/swagger/')
 
 path("", redirect_to_swagger),
+
+
+### Autor / Contribuciones
+
+Este repositorio fue modificado por **Nicolás Cano** como parte de su proceso de aprendizaje en Django REST Framework.  
+El proyecto original forma parte del curso de **Ana María Pinto** en [LinkedIn Learning](https://www.linkedin.com/learning/domina-python-django-rest).
+
+Cambios realizados:
+
+- Corrección de error 404 inicial con redirección automática a la documentación Swagger.
+- Estructuración del entorno con conda.
+- Organización del proyecto para futuras ampliaciones o prácticas personales.
